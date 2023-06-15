@@ -6,7 +6,7 @@
  * https://github.com/mkdocs/mkdocs/issues/233
  * https://github.com/mkdocs/mkdocs/issues/834
  */
- .rst-content code {
+.rst-content code {
     white-space: pre-wrap;
     word-wrap: break-word;
     padding: 2px 5px;

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Model - Devkit DotBMoon</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Model";
+    var mkdocs_page_input_path = "model.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Devkit DotBMoon</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">General Topic</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../create_field_custom_vardef/">Create field by vardefs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Addcssandjsintoviews/">Add css and js into views</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Custom_field_in_viewdef/">Custom field in viewdef</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Structure_of_ViewDef_file/">Structure of ViewDef file</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Module_Logic_Hooks/">Module Logic Hooks</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Bean_Factory/">Bean Factory</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Query_Database/">Query Database</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Action_View/">Action View</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../Ajax/">Ajax</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../styleguide/">Theme style</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../alert/">Alert</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../language/">Language</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Model</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../hybridmodule/">Hybrid Module</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../handlebarjs/">Handlebarjs</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../backbonejs/">Backbonejs</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../drawer/">Drawer</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Libraries</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../timedate/">Datetime</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Cookbook</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../customPlanActivitiesDashlet/">Custom filter Dashlet Plan Activities</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../customviewmodule/">Create a custom view module</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../highlightfield/">Highlight field</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../jsgrouping/">JS Grouping</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../cssgrouping/">CSS Grouping</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Devkit DotBMoon</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Model</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="create-guid">Create GUID</h1>
+<p>Format của id <code>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</code></p>
+<pre><code class="language-php">$id = Sugarcrm\Sugarcrm\Util\Uuid::uuid1();
+</code></pre>
+<h1 id="create-new-record">Create new record</h1>
+<pre><code class="language-php">//Create bean
+$bean = BeanFactory::newBean($module);
+
+//Populate bean fields
+$bean-&gt;name = 'Example Record';
+
+//Save
+$bean-&gt;save();
+
+//Retrieve the bean id
+$record_id = $bean-&gt;id;
+</code></pre>
+<h1 id="saving-a-bean-with-a-specific-id">Saving a Bean with a Specific ID</h1>
+<pre><code class="language-php">//Create bean
+$bean = BeanFactory::newBean($module);
+
+//set the new flag
+$bean-&gt;new_with_id = true;
+
+//Set the record id with a static id
+$id = '38c90c70-7788-13a2-668d-513e2b8df5e1';
+$bean-&gt;id = $id;
+
+//or have the system generate an id for you
+//$id = Sugarcrm\Sugarcrm\Util\Uuid::uuid1()
+//$bean-&gt;id = $id;
+
+//Populate bean fields
+$bean-&gt;name = 'Example Record';
+
+//Save
+$bean-&gt;save();
+</code></pre>
+<h1 id="check-a-bean-record-is-new-or-existing">Check a Bean record is new or existing</h1>
+<pre><code class="language-php">if (!isset($bean-&gt;fetched_row['id'])) {
+    //new record
+} else {
+    //existing record
+}
+</code></pre>
+<p><strong>Lưu ý:</strong> Nếu code xử lý trong logichook <code>before_save</code> hoặc <code>after_save</code> thì check như sau:</p>
+<pre><code class="language-php">function hook_method($bean, $event, $arguments)
+    {
+        if (isset($arguments['isUpdate']) &amp;&amp; $arguments['isUpdate'] == false) {
+            //new record
+        } else {
+            //existing record
+        }
+    }
+</code></pre>
+<h1 id="retrieve-and-update-a-bean-record">Retrieve and update a bean record</h1>
+<pre><code class="language-php">//Retrieve bean
+$bean = BeanFactory::retrieveBean($module, $id);
+
+//Fields to update
+$bean-&gt;name = 'Updated Name';
+
+//Save
+$bean-&gt;save();
+</code></pre>
+<ul>
+<li>Trong 1 số trường hợp cần bypass security thì cú pháp retrieveBean như sau:</li>
+</ul>
+<pre><code class="language-php">$bean = BeanFactory::retrieveBean(
+    $module, 
+    $record_id, 
+    array(
+        'disable_row_level_security' =&gt; true
+    )
+);
+</code></pre>
+<ul>
+<li>Update bean nhưng không thay đổi giá trị date_modified thì set modified flag như sau:</li>
+</ul>
+<pre><code class="language-php">$bean-&gt;update_date_modified = false;
+</code></pre>
+<h1 id="delete-a-bean">Delete a Bean</h1>
+<pre><code class="language-php">//Retrieve bean
+$bean = BeanFactory::retrieveBean($module, $id);
+
+//Set deleted to true
+$bean-&gt;mark_deleted($id);
+
+//Save
+$bean-&gt;save();
+</code></pre>
+<h1 id="fetching-relationships">Fetching Relationships</h1>
+<pre><code class="language-php">//If relationship is loaded
+if ($bean-&gt;load_relationship($link)) {
+    //Fetch related beans
+    $relatedBeans = $bean-&gt;$link-&gt;getBeans();
+
+    //Fetch related record IDs
+    $relatedBeanID = $bean-&gt;$link-&gt;get();
+}
+</code></pre>
+<h1 id="add-relationsihps">Add relationsihps</h1>
+<pre><code class="language-php">//If relationship is loaded
+if ($bean-&gt;load_relationship($link)) {
+    $bean-&gt;$link-&gt;add('related-Bean-ID');
+}
+</code></pre>
+<h1 id="cac-ham-hay-dung-voi-beanfactory">Các hàm hay dùng với BeanFactory</h1>
+<pre><code class="language-php">$bean = BeanFactory::newBean($module);
+$bean = BeanFactory::newBeanByName($name);
+$bean = BeanFactory::getBean($module, $record_id);
+$bean = BeanFactory::getBean($module, $record_id, array('disable_row_level_security' =&gt; true));
+$bean = BeanFactory::retrieveBean($module, $record_id);
+$bean = BeanFactory::retrieveBean($module, $record_id, array('disable_row_level_security' =&gt; true));
+$moduleKey = BeanFactory::getObjectName($moduleName);
+$moduleClass = BeanFactory::getBeanName($module);
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../hybridmodule/" class="btn btn-neutral float-right" title="Hybrid Module">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../language/" class="btn btn-neutral" title="Language"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../language/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../hybridmodule/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../js/extra.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
